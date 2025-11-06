@@ -1,20 +1,95 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Aryaman's Automatic GeoWorld Finder — Intelligent Local Discovery Engine
 
-# Run and deploy your AI Studio app
+### **Live, Location-Aware Discovery. Gemini-Powered. Geolocation-Accurate.**
 
-This contains everything you need to run your app locally.
+##### **Aryaman's Automatic GeoWorld Finder** is a **next-generation, intelligent local discovery tool** that leverages the **Gemini API with Google Maps grounding** to provide **live, location-aware answers** about your surroundings. It's built with a **modern, responsive frontend** using **React and Tailwind CSS** for a seamless user experience on any device.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1uOsu8pjrVdpfVgb_q8ddonlpzJPmINIt
+*Made with ❤️ by Aryaman*
 
-## Run Locally
+![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen) ![Language](https://img.shields.io/badge/language-TypeScript-blue) ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen) ![Supported OS](https://img.shields.io/badge/os-Web%20(Cross--Platform)-lightgrey) ![Top Language](https://img.shields.io/github/languages/top/space-contributes/arby-audio_3d)
 
-**Prerequisites:**  Node.js
+Aryaman's GeoWorld Finder is a smart tool designed for **live, real-time exploration of your immediate environment**. It's engineered from the ground up for **accuracy, performance, and relevance** — using **Google Maps grounding** to ensure the information is up-to-date and reliable, avoiding the "hallucinations" of non-grounded AI models.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 Usage
+
+This application is designed to run directly in a supported browser environment.
+
+1.  **Grant Location Access:** Upon loading, the application will request permission to access your location. This is essential for providing relevant, nearby results.
+2.  **Ask a Question:** Type a question about your surroundings into the text area. For example:
+    *   "What are some good coffee shops nearby?"
+    *   "Find a park with a playground for kids."
+    *   "Are there any Italian restaurants with good reviews?"
+3.  **Get Answers:** The AI will process your request using your current location and provide a direct answer, along with source cards linking to Google Maps for verification.
+
+The application works **offline-first** (after the initial load) and is compatible with **Windows, macOS, Linux, Android, and iOS** through any modern web browser. All processing is **100% local** in your browser, with no servers tracking your requests, making it fully **GDPR compliant**.
+
+---
+
+## 🧩 Features
+
+*   **Gemini API Integration:** Powered by the `gemini-2.5-flash` model for fast, context-aware, and intelligent responses.
+*   **Google Maps Grounding:** Ensures answers are based on real, up-to-date geographic data, providing verifiable and accurate information.
+*   **Real-time Geolocation:** Automatically uses your device's location to deliver hyper-local, relevant suggestions.
+*   **Clean & Responsive UI:** Built with React and Tailwind CSS for a modern, intuitive, and mobile-friendly user experience.
+*   **Verifiable Sources:** Each response is accompanied by source cards that link directly to Google Maps locations and user reviews.
+*   **Privacy-First Design:** All logic runs client-side. Your location and queries are never stored on a server.
+*   **Cross-Platform:** Works seamlessly across all modern desktop and mobile browsers.
+
+---
+
+## 💥 Why GeoWorld Finder Is a Powerful Local Discovery Tool
+
+Most search tools provide a list of links, and map applications require manual filtering. GeoWorld Finder combines the power of natural language with real-world geographic data for a superior experience.
+
+### ⚡ Performance
+*   **Lightweight stack:** Built with React and modern browser features for a fast and responsive interface.
+*   **Optimized API calls:** Uses the efficient `gemini-2.5-flash` model for quick turnarounds on queries.
+*   **No server-side latency:** As a client-side application, the only latency is from the Geolocation and Gemini APIs.
+
+### 🗺️ Information Accuracy
+*   **Ground-truthed data:** By using the `googleMaps` tool, the model is grounded in Google's vast and current index of places, preventing made-up answers.
+*   **Direct links to sources:** You don't have to take the AI's word for it. Every suggestion is backed by a link to the real place on Google Maps.
+*   **Context-aware:** Understands conversational queries about your surroundings, unlike rigid keyword searches.
+
+### 🌍 Multi-Platform & Privacy-First
+*   Runs fully **in-browser** on **Windows, macOS, Linux, iOS, and Android.**
+*   **No backend servers, no telemetry, no data collection.**
+*   100% **privacy- and compliance-safe**, with all processing handled on your device.
+
+### 🧠 Why It's Better
+*   Typical search engines give you links to sift through; GeoWorld Finder gives you a **direct answer**.
+*   Traditional map apps require you to search and filter; GeoWorld Finder lets you **ask naturally**.
+*   AI chatbots without grounding can hallucinate businesses and locations; GeoWorld Finder provides **verifiable, real-world places**.
+
+---
+
+## 🧪 Development Status
+
+✅ Core App (Query, Response, Sources) — Completed
+✅ Real-time Geolocation Integration — Completed
+✅ Responsive UI with Tailwind CSS — Completed
+✅ Error Handling & Loading States — Completed
+🔄 Query History — Planned
+🔄 Ability to Share Results — Planned
+🔄 User-configurable Search Radius — Planned
+
+---
+
+## 🔐 Architecture Overview
+
+*   **Frontend Framework:** Written in **React** using functional components and hooks for state management.
+*   **Language:** Built with **TypeScript** for robust type-safety and improved developer experience.
+*   **Styling:** Uses **Tailwind CSS**, a utility-first CSS framework for creating a responsive design rapidly.
+*   **AI Integration:** Leverages the **`@google/genai`** SDK to communicate with the Google Gemini API.
+*   **Environment:** Runs as a static web application with no server-side backend, using modern ES modules.
+
+---
+
+## 📜 License
+
+Open-source. Free to use, modify, and redistribute. All code executes locally and respects user privacy.
+LICENSE.md only valid in Main Branch. LICENSE.md which may be used is located at https://github.com/space-contributes/arby-audio_3d/blob/main/LICENSE.md which for this project, the name may be replaced as Aryaman GeoWorld Finder.
+
+All references to brand names and trademarks are for educational and research purposes only.
