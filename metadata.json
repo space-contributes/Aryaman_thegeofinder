@@ -1,0 +1,7 @@
+{
+  "name": "Explorer",
+  "description": "An intelligent local discovery tool that uses Gemini with Google Maps grounding to provide up-to-date, location-aware answers to your questions about nearby places.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
